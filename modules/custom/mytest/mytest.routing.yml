@@ -1,0 +1,7 @@
+mytest.form:
+    path: '/mytest/form'
+    defaults:
+        _form: 'Drupal\mytest\Form\MyTestForm'
+        _title: 'MyTest Form'
+    requirements:
+        _permission: 'access content'
